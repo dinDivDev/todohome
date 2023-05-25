@@ -1,0 +1,54 @@
+.students-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.student-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(146, 146, 146);
+  width: auto;
+  background-color: skyblue;
+}
+
+.student-name {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img {
+  margin-top: 1rem;
+  width: 304px;
+  height: 228px;
+}
+
+.student-info {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: rgb(9, 41, 135);
+}
+.click-btn {
+  position: relative;
+  background-color: rgb(11, 115, 167);
+  border-radius: 4em;
+  font-size: 10px;
+  color: white;
+  padding: 0.8em 1.8em;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+  transition-duration: 0.1s;
+  background-color: #3a3a3a;
+}
